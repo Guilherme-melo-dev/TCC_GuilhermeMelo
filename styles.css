@@ -1,0 +1,132 @@
+.container-Institutions {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 5% 0 ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#texts-instituicao {
+    text-align: right;
+    order: 2;
+}
+
+.modal-header{
+    height: 150px;
+}
+
+.modal-body{
+    height: 400px;
+}
+
+#TextLogo{
+    text-align: left;    
+    font-family: Montserrat;
+    font-size: 40px;
+    display:flex ;  
+   align-items: center;
+}
+
+#textModal{
+    font-size: 25px;
+    font-family: Alata;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#Logo{
+    height: 100px;
+    margin: 20px 0; 
+}
+
+#image-inst {
+    height: 300px;
+    margin: 70px 0;
+}
+
+#image-Banco1 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Banco2 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Banco3 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Banco4 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Banco5 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Banco6 {
+    height: 120px;
+    margin: 30px 0;
+}
+
+#image-Facul {
+    height: 120px;
+    margin: 30px 0;
+}
+
+
+#title-insti {
+    font-size: 45px;
+    font-family: Alata;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#desc-insti {
+    font-family: Alata;
+    font-size: 23px;
+    max-width: 500px;
+}
+
+#btnInst {
+    text-align: center;
+    color: darkred;
+    height: 50px;
+    margin: 30px 0;
+    font-size: 20px;
+    border: transparent;
+    outline: none;
+    background: transparent;
+}
+
+@media (max-width: 410px) {
+    #image-inst {
+        height: 100px;
+    }
+}
+@media (max-width: 500px) {
+    #title-insti {
+        font-size: 30px;
+    }
+    #desc-insti {
+        font-size: 16px;
+        margin: 20px;
+    }
+    #image-inst {
+        width: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    #image-inst {
+        height: 300px;
+    }
+}
